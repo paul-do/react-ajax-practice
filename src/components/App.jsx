@@ -1,5 +1,6 @@
 import React from 'react';
-import Hacker from './Hacker.jsx'
+import Hacker from './Hacker.jsx';
+import MessageSubmit from './MessageSubmit.jsx';
 
 class App extends React.Component {
 
@@ -54,7 +55,7 @@ class App extends React.Component {
           <div>
            Name: <input type='text' onChange={this.onNameChange}></input>
            Message: <input type='text' onChange ={this.onMessageChange}></input>
-           <button onClick={this.submitHandler}>Crush the assingnment!</button>
+           <MessageSubmit submitHandler={this.submitHandler} />
           </div>
         </div> 
     )
