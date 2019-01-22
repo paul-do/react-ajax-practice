@@ -1,4 +1,4 @@
-import jQuery from 'jquery'
+import $ from 'jquery'
 
 var Hacker = {
   server: 'http://ec2-13-57-25-101.us-west-1.compute.amazonaws.com:3000/api/hrsf110/greeting',

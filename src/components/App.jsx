@@ -1,6 +1,7 @@
 import React from 'react';
 import Hacker from './Hacker.jsx';
 import MessageSubmit from './MessageSubmit.jsx';
+import $ from 'jquery';
 
 class App extends React.Component {
 
